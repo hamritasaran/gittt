@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>At Consilio Housing, we believe that a well-designed home is the foundation for a happy and fulfilling life. We are a team of passionate architects and designers dedicated to creating spaces that not only look beautiful, but also function seamlessly with your lifestyle.
+
+Beyond aesthetics, we prioritize functionality and sustainability in all of our designs. We believe that a home should not only look good, but also work for you and your family, whether that means maximizing storage space, optimizing natural light, or incorporating eco-friendly materials.
+
+At Consilio Housing, we are committed to providing exceptional service and a seamless experience from start to finish. We pride ourselves on our attention to detail and our ability to bring your dream home to life on time and on budget</p>
+<button type="button" onclick="location.href='file:///C:/Users/Hamrita/Downloads/housedesigning.html'">HOME</button>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://img.freepik.com/free-photo/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-space_23-2148767055.jpg" alt="Amelia" style="width:100%">
+      <div class="container">
+        <h2>Amelia</h2>
+        <p class="title">CEO & Founder</p>
+        <p> With years of experience in the interior design industry, I bring a wealth of knowledge and expertise to our team. My commitment to exceptional customer service, innovation, and financial stability is reflected in everything we do, from the initial consultation to the final walk-through.</p>
+        <p>amelia@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://img.freepik.com/premium-photo/business-woman-standing-office-formal-wear_1303-31831.jpg" alt="Freya" style="width:100%">
+      <div class="container">
+        <h2>Freya Ross</h2>
+        <p class="title">Art Director</p>
+        <p>As the Art Director of Consilio Housing, my primary goal is to create a visually stunning and user-friendly house designs that showcases the beauty and functionality of our designs. I am responsible for collaborating with the rest of the team, including designers, developers, and content creators, to ensure that our houses are an accurate reflection of our brand and our values. By working together, we can create a website that is truly exceptional and helps us achieve our business goals.</p>
+        <p>freya@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://media.istockphoto.com/id/1413766112/photo/successful-mature-businessman-looking-at-camera-with-confidence.jpg?b=1&s=170667a&w=0&k=20&c=lrHSjzuqKIAC76-vpOhzR7pRsP38DGPWt7x7SOFbm0Q=" alt="John" style="width:100%">
+      <div class="container">
+        <h2>George Gates</h2>
+        <p class="title">Designer</p>
+        <p>As a designer of a house, my primary goal is to create a functional, aesthetically pleasing, and comfortable living space that reflects the client's style and meets their needs. The details can make a big difference in the overall design of a house. I pay close attention to details, such as lighting fixtures, hardware, and other decorative elements, to create a cohesive and polished look throughout the space.
+Overall, my goal as a designer of a house is to create a space that not only looks great, but also meets the client's needs and enhances their quality of life.</p>
+        <p>george@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
